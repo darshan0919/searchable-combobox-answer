@@ -1,4 +1,4 @@
-import SearchableCombobox from "./components/SearchableCombobox/SearchableCombobox";
+import SearchableCombobox from "./SearchableCombobox";
 import "./App.css";
 
 export default function App() {

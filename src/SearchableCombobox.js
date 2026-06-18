@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { searchOptions } from "../../api/mockSearch";
-import { getFocusedIndex } from "../../lib/getFocusedIndex";
+import { searchOptions } from "./mockSearch";
+import { getFocusedIndex } from "./getFocusedIndex";
 import "./SearchableCombobox.css";
 
 const DEBOUNCE_MS = 300;

@@ -1,7 +1,7 @@
 import { act, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import SearchableCombobox from "../components/SearchableCombobox/SearchableCombobox";
-import * as mockSearch from "../api/mockSearch";
+import SearchableCombobox from "../SearchableCombobox";
+import * as mockSearch from "../mockSearch";
 
 const DEBOUNCE_MS = 300;
 const SEARCH_DELAY_MS = 300;
