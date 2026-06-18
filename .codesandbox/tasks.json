@@ -16,7 +16,7 @@
     },
     "test": {
       "name": "Run Tests",
-      "command": "npm test -- --watchAll=false",
+      "command": "CI=true npm test",
       "runAtStart": false
     }
   }
